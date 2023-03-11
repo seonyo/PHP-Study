@@ -5,8 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE=edge는 엣지 브라우저도 된다-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--디바이스 크기에 맞춰 최초 크기를 맞춰 화면에 보여주겠다(반응형)-->
     <title>Document</title>
+
+    <style>
+        #box {
+            width : 700px;
+            height : 600px;
+        }
+        h1{
+            color : hotpink;
+        }
+        p{
+            font-size: 18px;
+        }
+        .information{
+            background-color : #eeeeee;
+            border : 5px solid purple;
+            padding : 10px;
+        }
+        .information :hover{
+            color : green;
+         }
+        hr{
+            border-width : 10px 0 0 0;
+            border-style: dotted;
+            color : purple;
+
+        }
+        .Web{
+            color : orange;
+        }
+
+    </style>
 </head>
 <body>
+    <div id = "box">
+        <h1>JANE Doe</h1>
+        <hr>
+        <h2 style="font-size: 25px;">Web Develpoer</h2>
 
+        <p>Far far away, behind the word mountains, far from the contries<br>
+        Vokalia and Consonantia, there live the blind texts. Separeted they live in Bookmarksgrove right at the coast of the Sematics, a large <br>
+    language ocean.</p>
+    <p>A small river named Duden flows by their place and supplies it with the <br>
+    necessary regelialia. It is a paradisematic country, in which roasted <br>
+parts of sentences fly into you mouths</p>
+
+<h2><i>Contact information</i></h2>
+
+<div class = information>
+    <ul>
+        <li class = "Email">Email : jane@example.com</class></li>
+        <li >Web : <span style="color : orange;"> <u>http://example.com</u></span></li>
+        <li class = "Tel">Tel: 123 45678</li>
+    </ul>
+</div>
+    </div>
+   
 </body>
 </html>
